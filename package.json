@@ -11,10 +11,23 @@
     "url": "git+https://github.com/RafaCypherpunk/MyAppWebsite.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Rafael Fuentes Rangel",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/RafaCypherpunk/MyAppWebsite/issues"
   },
-  "homepage": "https://github.com/RafaCypherpunk/MyAppWebsite#readme"
+  "homepage": "https://github.com/RafaCypherpunk/MyAppWebsite#readme",
+  "dependencies": {
+    "@chakra-ui/react": "^1.6.12",
+    "@emotion/styled": "^11.3.0",
+    "framer-motion": "^5.2.1",
+    "next": "^12.0.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-next": "^12.0.3",
+    "prettier": "^2.4.1"
+  }
 }
