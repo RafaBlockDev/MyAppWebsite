@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Space Mono', monospace;
 }
 header {
   position: absolute;
@@ -21,6 +21,14 @@ header .logo {
   text-transform: uppercase;
   cursor: pointer;
 }
+
+.logo {
+  diplay: flex;
+  width: 3rem;
+  border-radius: 1.5rem;
+  align-items: center;
+}
+
 .toggle {
   position: relative;
   width: 60px;
@@ -64,6 +72,11 @@ header .logo {
   object-fit: cover;
   opacity: 0.8;
 }
+
+.explore {
+  border-radius: .5rem;
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -81,20 +94,20 @@ header .logo {
 .text h2 {
   font-size: 5em;
   font-weight: 800;
-  color: #fff;
+  color: white;
   line-height: 1em;
   text-transform: uppercase;
 }
 .text h3 {
   font-size: 4em;
   font-weight: 700;
-  color: #fff;
+  color: black;
   line-height: 1em;
   text-transform: uppercase;
 }
 .text p {
   font-size: 1.1em;
-  color: #fff;
+  color: #D7DBDD;
   margin: 20px 0;
   font-weight: 400;
   max-width: 700px;
