@@ -357,6 +357,7 @@ input {
   right: 0;
   bottom: 1rem;
   width: 228px;
+  border-radius: .5rem;
 }
 
 .home__info-title {
@@ -364,6 +365,7 @@ input {
   font-size: var(--small-font-size);
   font-weight: var(--font-semi-bold);
   margin-bottom: var(--mb-0-75);
+  border-radius: .5rem;
 }
 
 .home__info-button {
@@ -377,6 +379,7 @@ input {
 .home__info-img {
   width: 145px;
   transition: var(--img-transition);
+  border-radius: .5rem;
 }
 
 .home__info-img:hover {
