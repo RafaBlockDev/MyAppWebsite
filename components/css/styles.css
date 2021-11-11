@@ -442,10 +442,12 @@ input {
 
 .about__img-one {
   width: 130px;
+  border-radius: .5rem;
 }
 
 .about__img-two {
   width: 180px;
+  border-radius: .5rem;
 }
 
 .about__img-one, 
@@ -488,6 +490,7 @@ input {
 
 .discover__img {
   transition: var(--img-transition);
+  border-radius: .75rem;
 }
 
 .discover__img:hover {
