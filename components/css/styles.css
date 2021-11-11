@@ -438,6 +438,7 @@ input {
 
 .about__img-overlay {
   overflow: var(--img-hidden);
+  border-radius: .5rem;
 }
 
 .about__img-one {
@@ -465,6 +466,7 @@ input {
   position: relative;
   width: 200px;
   overflow: var(--img-hidden);
+  border-radius: .75rem;
 }
 
 .discover__data {
@@ -534,15 +536,18 @@ input {
 .experience__img-one, 
 .experience__img-two {
   transition: var(--img-transition);
+  border-radius: 1.5rem;
 }
 
 .experience__img-one:hover, 
 .experience__img-two:hover {
   transform: var(--img-scale);
+  
 }
 
 .experience__overlay {
   overflow: var(--img-hidden);
+  border-radius: 1.5rem;
 }
 
 .experience__overlay:nth-child(1) {
