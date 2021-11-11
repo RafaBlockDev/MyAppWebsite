@@ -600,6 +600,7 @@ input {
 .place__card {
   position: relative;
   overflow: var(--img-hidden);
+  border-radius: .75rem;
 }
 
 .place__card:hover .place__img {
